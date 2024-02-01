@@ -1,0 +1,1 @@
+/Users/bumblebee/Github/rusty/capnp_practice/target/debug/capnp_practice: /Users/bumblebee/Github/rusty/capnp_practice/build.rs /Users/bumblebee/Github/rusty/capnp_practice/src/main.rs /Users/bumblebee/Github/rusty/capnp_practice/target/debug/build/capnp_practice-3666435b2cea9794/out/hello_capnp.rs

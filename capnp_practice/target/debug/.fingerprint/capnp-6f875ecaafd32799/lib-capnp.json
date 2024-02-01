@@ -1,0 +1,1 @@
+{"rustc":2523618591442667146,"features":"[\"alloc\", \"default\", \"std\"]","target":9018270903780793513,"profile":9105094230177512158,"path":12621221853640184075,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"debug/.fingerprint/capnp-6f875ecaafd32799/dep-lib-capnp"}}],"rustflags":[],"metadata":3910551965780280404,"config":2202906307356721367,"compile_kind":0}
