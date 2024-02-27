@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 use std::cmp::Reverse;
 use std::collections::BinaryHeap;
@@ -99,3 +100,18 @@ fn main() {
     - 요청시간에 따라 우선 작업을 추가한다.
     - 작업시간에 따라
 */
+=======
+//jobs	return
+//[[0, 3], [1, 9], [2, 6]]	9
+
+fn disk_controller(_jobs: &Vec<Vec<i32>>) -> i32 {
+    let mut result = 0;
+    result
+}
+
+fn main() {
+    let jobs = vec![vec![0, 3], vec![1, 9], vec![2, 6]]; // 수정된 부분
+    let result = disk_controller(&jobs);
+    println!("{}", result); // 결과 출력을 위해 추가
+}
+>>>>>>> 35b2c98 (git pull --rebase)
