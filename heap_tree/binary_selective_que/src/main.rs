@@ -67,7 +67,7 @@ fn detective(commands: &[&str]) -> Vec<i32> {
         vec![max, min]
     }
 }
-
+//->문제점, min heap and max heap are not synchronized.
 fn main() {
     let commands = ["I 16", "I -5643", "D -1", "D 1", "D 1", "I 123", "D -1"];
     let result = detective(&commands);

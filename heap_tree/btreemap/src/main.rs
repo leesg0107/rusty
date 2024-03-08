@@ -1,9 +1,9 @@
 use std::collections::BTreeMap;
 
-fn btreemap(string: Vec<&str>) -> Vec<i32> {
+fn btreemap(strings: Vec<&str>) -> Vec<i32> {
     let mut map: BTreeMap<i32, i32> = BTreeMap::new();
 
-    for op in string {
+    for op in strings {
         let parts: Vec<&str> = op.split_whitespace().collect();
         let command = parts[0];
         let value = parts[1].parse::<i32>().unwrap();
